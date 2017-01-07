@@ -1,0 +1,4 @@
+.page-header {
+  @mixin container 320px, 0px, 0px;
+  border-bottom: 2px solid #fbdc67;
+}

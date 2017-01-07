@@ -1,0 +1,33 @@
+{
+  "name": "rg-mobile",
+  "version": "1.0.0",
+  "description": "RG mobile verions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VanchoRancho/rg-mobile.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VanchoRancho/rg-mobile/issues"
+  },
+  "homepage": "https://github.com/VanchoRancho/rg-mobile#readme",
+  "devDependencies": {
+    "autoprefixer": "6.5.3",
+    "grunt": "^1.0.1",
+    "grunt-browser-sync": "2.2.0",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-imagemin": "^1.0.1",
+    "grunt-contrib-watch": "1.0.0",
+    "grunt-csso": "^2.1.0",
+    "grunt-postcss": "0.8.0",
+    "grunt-svgstore": "^1.0.0",
+    "load-grunt-tasks": "^3.5.2",
+    "precss": "1.4.0"
+  }
+}

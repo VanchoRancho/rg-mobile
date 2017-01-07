@@ -1,0 +1,95 @@
+/*
+Blocks
+*/
+.page-body {
+    margin: 0
+}
+.page-header {
+    box-sizing: border-box;
+    width: 320px;
+    margin: 0 auto;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-bottom: 2px solid #fbdc67
+}
+.main-nav__items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+        flex-direction: row;
+    -ms-flex-pack: start;
+        justify-content: flex-start
+}
+.main-nav__item {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-align: center;
+        align-items: center;
+    width: 50px;
+    min-height: 50px;
+    cursor: pointer
+}
+.main-nav__item--logo {
+    margin-right: auto
+}
+.main-nav__link {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-align: center;
+        align-items: center;
+    width: 100%;
+    height: 100%
+}
+.main-nav__link--basket-empty {
+    background-image: url("../img/svg/basket_empty.svg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center center
+}
+.main-nav__link--basket-full {
+    background-image: url("../img/svg/basket_full.svg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center center
+}
+.main-nav__hamburger {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-align: center;
+        align-items: center;
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 0px
+}
+.main-nav__hamburger > span {
+    position: relative;
+    width: 14px;
+    height: 2px;
+    background-color: black
+}
+.main-nav__hamburger > span::before, .main-nav__hamburger > span::after {
+    content: "";
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    height: 2px;
+    background-color: black
+}
+.main-nav__hamburger > span::before {
+    top: 5px
+}
+.main-nav__hamburger > span::after {
+    top: -5px
+}
